@@ -1,0 +1,23 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Kiroween submission gate",
+      "description": "Before the agent stops, run the app checks and the submission-artifact gate with confirmation.",
+      "trigger": "Stop",
+      "action": {
+        "type": "command",
+        "command": "node scripts/check-app.js && node scripts/verify-repo.js"
+      },
+      "timeout": 120,
+      "enabled": true,
+      "confirm": {
+        "question": "Run the Kiroween submission gate now?",
+        "options": [
+          { "id": "run", "label": "Run checks", "run": true },
+          { "id": "skip", "label": "Not this time", "run": false }
+        ]
+      }
+    }
+  ]
+}

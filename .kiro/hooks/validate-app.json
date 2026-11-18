@@ -1,0 +1,17 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Compile-check SpectreScan on save",
+      "description": "Compiles the inline engine with vm.Script and enforces the CSP, single-file and size invariants whenever index.html is saved.",
+      "trigger": "PostFileSave",
+      "matcher": "index\\.html$",
+      "action": {
+        "type": "command",
+        "command": "node scripts/check-app.js"
+      },
+      "timeout": 45,
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "CSP and data-source review",
+      "description": "After any edit to index.html, ask the agent to re-check the security contract and document new endpoints before moving on.",
+      "trigger": "PostFileSave",
+      "matcher": "index\\.html$",
+      "action": {
+        "type": "agent",
+        "prompt": "You have just edited index.html. Before continuing, verify the change preserves the single-file contract: (1) no external script, style, font, iframe or remote image was introduced; (2) every new network endpoint is HTTPS, CORS-enabled in a browser, and listed in .kiro/steering/data-sources.md and docs/DATA_SOURCES.md; (3) remote strings still go through esc() before HTML insertion; (4) node scripts/check-app.js passes. If any check fails, fix it or explain the failure instead of ignoring it."
+      },
+      "enabled": true
+    }
+  ]
+}

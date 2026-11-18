@@ -1,0 +1,17 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Local tooling
+node_modules/
+npm-debug.log*
+.spectre-check.js
+_site/
+
+# Local evidence (never commit keys or captures)
+.env
+.env.*
+*.local
