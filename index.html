@@ -5279,9 +5279,10 @@ function updateInputState() {
 function runQuick(q, btn) {
   if (!q) return;
   setTab('feed');
-  if (S.chainId !== q.chain) setChain(q.chain, { silent: true });
   $id('targetInput').value = q.address;
   $id('targetInput').classList.remove('invalid');
+  if (S.chainId !== q.chain) setChain(q.chain, { silent: true });
+  updateInputState();
   scanTarget(q.address, q.chain);
   if (btn) btn.blur();
 }
