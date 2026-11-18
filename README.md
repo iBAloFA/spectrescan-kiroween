@@ -14,8 +14,8 @@ Haunted mode skin.
 
 ## Live demo
 
-- **App:** deploy with the included GitHub Pages workflow (see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md))
-  and add the URL to the Devpost submission.
+- **App:** [https://ibaloFA.github.io/spectrescan-kiroween/](https://ibaloFA.github.io/spectrescan-kiroween/)
+- **Repository:** [https://github.com/iBAloFA/spectrescan-kiroween](https://github.com/iBAloFA/spectrescan-kiroween)
 - **Video:** [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md) contains the shot list and narration for the
   required sub-3-minute YouTube demo.
 

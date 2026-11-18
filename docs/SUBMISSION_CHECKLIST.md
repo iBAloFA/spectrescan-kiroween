@@ -100,8 +100,8 @@ Point judges at [KIRO_USAGE.md](KIRO_USAGE.md) for the long version.
 | Project name | SpectreScan — Kiroween Edition | |
 | Category | **Costume Contest** | |
 | Tagline | On-chain threat intelligence with a Haunted mode | |
-| GitHub URL | `https://github.com/<user>/<repo>` | placeholder |
-| Live app URL | `https://<user>.github.io/<repo>/` | placeholder |
+| GitHub URL | `https://github.com/iBAloFA/spectrescan-kiroween` | live |
+| Live app URL | `https://ibaloFA.github.io/spectrescan-kiroween/` | verified |
 | Video URL | `https://youtu.be/<id>` | placeholder |
 | Built with | Kiro IDE (specs, steering, hooks, custom agent) | |
 | Try it out | Live URL | |
