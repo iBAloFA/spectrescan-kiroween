@@ -6,16 +6,15 @@ verifies the submission gates before publishing.
 ## Option A — GitHub Pages (recommended)
 
 1. Create a **public** repository on GitHub named `spectrescan-kiroween` (no README, no license from
-   GitHub — this repo already has both).
-2. Push this folder:
+   GitHub — this repo already has both). Do not initialize it with a branch.
+2. This folder is already a git repository with `main` committed. Add the remote and push:
    ```bash
-   git init -b main
-   git add .
-   git commit -m "feat: SpectreScan Kiroween edition"
    git remote add origin https://github.com/<your-username>/spectrescan-kiroween.git
    git push -u origin main
    ```
-3. In the repository: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+3. The workflow calls `actions/configure-pages` with `enablement: true`, so the first run turns Pages
+   on and selects **GitHub Actions** as the source. If your organization blocks that API call, set it
+   once by hand: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 4. The push triggers `.github/workflows/pages.yml`:
    - `verify` runs `node scripts/check-app.js` and `node scripts/verify-repo.js`
    - `deploy` stages `index.html`, `.nojekyll` and `LICENSE` into `_site` and publishes
