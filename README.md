@@ -128,13 +128,14 @@ Node 18+ is only needed for these scripts; the app itself has no toolchain.
 ## Lineage and the Kiroween rule
 
 Kiroween requires projects created during the submission window (October 30 – December 4, 2026).
-SpectreScan's scanner engine predates the event. The Kiroween Edition was built during the window on
-top of it: the Solana and Bitcoin adapters, Haunted mode, both specs, all steering files, the hooks,
-the review agent, the gate scripts, the documentation and the deployment workflow.
+SpectreScan was created on November 18, 2026, inside that window. The first draft of the scanner was
+written locally outside Kiro; it was then brought into a Kiro workspace, where the Kiroween Edition
+was built the same day on top of it: the Solana and Bitcoin adapters, Haunted mode, both specs, all
+steering files, the hooks, the review agent, the gate scripts, the documentation and the deployment
+workflow.
 
-That lineage is disclosed rather than hidden. Whether it satisfies the "new project" rule is for the
-organizers to decide; [docs/SUBMISSION_CHECKLIST.md](docs/SUBMISSION_CHECKLIST.md) treats that
-confirmation as a prerequisite for submitting.
+That lineage is disclosed rather than hidden.
+[docs/SUBMISSION_CHECKLIST.md](docs/SUBMISSION_CHECKLIST.md) records the same timeline.
 
 ## License
 

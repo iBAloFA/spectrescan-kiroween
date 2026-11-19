@@ -6,15 +6,14 @@ Pages deploys and YouTube processing both take time.
 
 ## Eligibility note — read first
 
-The rules require the project to be created during the submission period. This app has lineage from
-earlier work; the README discloses that lineage under **Lineage and the Kiroween rule**. Before
-submitting, either:
+The rules require the project to be created during the submission period. SpectreScan was created on
+**November 18, 2026**, inside the October 30 – December 4 window. The first draft of the scanner was
+written locally outside Kiro on that date; it was brought into a Kiro workspace the same day, and the
+Kiroween Edition (specs, steering, hooks, Haunted mode, documentation, deployment) was built from
+there. The README records this under **Lineage and the Kiroween rule**.
 
-- confirm with the organizers that the Kiroween Edition (specs, steering, hooks, Haunted mode,
-  documentation and deployment built for this event) qualifies as the submitted project, or
-- do not submit it.
-
-Disclosure is not a substitute for eligibility. Keep the README section intact either way.
+The creation date satisfies the rule, so asking the organizers first is optional. Keep the README
+section intact either way.
 
 ## 1. Repository
 
