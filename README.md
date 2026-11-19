@@ -16,8 +16,9 @@ Haunted mode skin.
 
 - **App:** [https://ibaloFA.github.io/spectrescan-kiroween/](https://ibaloFA.github.io/spectrescan-kiroween/)
 - **Repository:** [https://github.com/iBAloFA/spectrescan-kiroween](https://github.com/iBAloFA/spectrescan-kiroween)
-- **Video:** [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md) contains the shot list and narration for the
-  required sub-3-minute YouTube demo.
+- **Video:** [SpectreScan — Kiroween 2026 Demo](https://youtu.be/zzgqVzCxzBk) (2:13, public on
+  YouTube). [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md) has the shot list and narration it was built
+  from.
 
 Run locally in one command:
 
