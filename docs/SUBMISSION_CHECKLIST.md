@@ -47,14 +47,25 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for the exact settings and troubleshooting.
 
 ## 3. Demo video
 
-- [ ] **Public** YouTube video (unlisted does not meet "publicly available").
-- [ ] **Under 3 minutes.** Target 2:45.
-- [ ] Shows the app working on its target device (desktop browser) — not slides.
-- [ ] No copyrighted music, no third-party trademarks, no logos you do not own.
-- [ ] Narration explains what it is, what it does, and what Kiro contributed.
+Rendered locally: `C:\Users\HP\Desktop\SCIENCE\spectrescan-kiroween-demo.mp4` (2:12, 1920x1080,
+30 fps, synthetic narration over a real screen recording of the live app). A transcript is saved as
+`spectrescan-kiroween-demo.srt`; the video already has burned-in captions, so do not attach it as a
+second subtitle track unless you reposition one of them.
+
+- [x] **Upload** to YouTube with visibility **Public** — https://youtu.be/zzgqVzCxzBk (verified
+      public on 2026-11-19: watch page reports neither private nor unlisted).
+- [ ] Title: `SpectreScan — Kiroween 2026 Demo (18 networks, one HTML file)`. The upload still has
+      the default title `spectrescan kiroween demo`; change it in **Details → Title** and save.
+- [x] Description: `Live app: https://ibaloFA.github.io/spectrescan-kiroween/ · Repo:
+      https://github.com/iBAloFA/spectrescan-kiroween · Built with Kiro for Kiroween 2026.`
+      (verified on the watch page).
+- [x] Confirm it is **under 3 minutes** (2:12) and plays in a logged-out browser.
+- [x] Shows the app working on its target device (desktop browser) — not slides.
+- [x] No copyrighted music, no third-party trademarks beyond the GitHub UI shown as evidence.
+- [x] Narration explains what it is, what it does, and what Kiro contributed.
 - [ ] Link is pasted into Devpost and plays in a logged-out browser.
 
-Use [DEMO_SCRIPT.md](DEMO_SCRIPT.md) for the shot list, narration and pre-flight.
+Use [DEMO_SCRIPT.md](DEMO_SCRIPT.md) for the shot list and pre-flight.
 
 ## 4. Text description
 
@@ -102,7 +113,7 @@ Point judges at [KIRO_USAGE.md](KIRO_USAGE.md) for the long version.
 | Tagline | On-chain threat intelligence with a Haunted mode | |
 | GitHub URL | `https://github.com/iBAloFA/spectrescan-kiroween` | live |
 | Live app URL | `https://ibaloFA.github.io/spectrescan-kiroween/` | verified |
-| Video URL | `https://youtu.be/<id>` | placeholder |
+| Video URL | `https://youtu.be/zzgqVzCxzBk` | live, public |
 | Built with | Kiro IDE (specs, steering, hooks, custom agent) | |
 | Try it out | Live URL | |
 
